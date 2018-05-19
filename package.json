@@ -1,0 +1,32 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Start repository for development without pain",
+  "devDependencies": {
+    "autoprefixer": "7.2.x",
+    "browser-sync": "2.23.x",
+    "gulp": "3.9.x",
+    "gulp-plumber": "1.2.x",
+    "gulp-postcss": "7.0.x",
+    "gulp-sass": "3.1.x"
+  },
+  "scripts": {
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp style",
+    "start": "gulp serve",
+    "svg": "gulp svgs"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "engines": {
+    "node": "8.9"
+  },
+  "dependencies": {
+    "gulp-svgmin": "^1.2.4",
+    "gulp-svgstore": "^6.1.1"
+  }
+}
