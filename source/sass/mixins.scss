@@ -10,11 +10,15 @@
   list-style: none;
 }
 
-@mixin flex-column() {
+@mixin flex-col() {
   display: flex;
   flex-direction: column;
 }
 
+@mixin flex-row() {
+  display: flex;
+  flex-direction: row;
+}
 
 @mixin retina {
   @media
