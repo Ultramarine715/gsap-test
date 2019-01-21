@@ -14,12 +14,12 @@ function startTween() {
     width: maxWidthAside,
     ease:Power3.easeInOut
   }, "myFirstCount")
-  .from('.liked-btn-js', .5, {
-    scale: 0,
+  .to('.liked-btn-js', .5, {
+    scale: 1,
     ease:Back.easeOut
   })
-  .from('.liked-text-js', .5, {
-    scale: 0
+  .to('.liked-text-js', .5, {
+    scale: 1
   }, "mySecondCount")
   .from('.share-js', .5, {
     scale: 0
@@ -52,9 +52,12 @@ function startTween() {
 
 document.addEventListener("DOMContentLoaded", function() {
 
-startTween();
+  setTimeout(function() {
+    startTween();
+  }, 2000)
+
 
   setTimeout(function() {
     tl.reverse();
-  }, 7000)
+  }, 9000)
 });

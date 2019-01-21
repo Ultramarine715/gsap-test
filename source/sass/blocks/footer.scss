@@ -19,6 +19,7 @@
       background-size: 15px 15px;
       background-position: center;
       background-repeat: no-repeat;
+      transform: matrix(0, 0, 0, 0, 0, 0);
 
       & img {
         width: 15px;
@@ -32,6 +33,7 @@
       font-family: Helvetica, Arial, sans-serif;
       font-weight: 100;
       padding-right: 25px;
+      transform: matrix(0, 0, 0, 0, 0, 0);
 
       &::after {
         position: absolute;
