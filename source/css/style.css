@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 700; }
+
+body {
+  min-width: 320px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.5; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #000;
+  color: #fff;
+  background-image: url(../../img/main-bg.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  height: 100vh; }
+  .main__headline {
+    margin: 100px 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    opacity: 0; }
+
+.aside {
+  position: relative;
+  width: 150px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #fff;
+  color: #000;
+  background-image: url(../../img/aside-bg.jpg);
+  background-size: cover;
+  background-position-x: center; }
+  .aside__btn {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: #0000ff;
+    bottom: 40px;
+    left: -35px; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto 50px;
+  width: 80%; }
+  .footer-liked {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .footer-liked__btn {
+      width: 50px;
+      height: 50px;
+      margin-right: 25px;
+      background-color: #fff;
+      border-radius: 50%;
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png");
+      background-size: 15px 15px;
+      background-position: center;
+      background-repeat: no-repeat; }
+      .footer-liked__btn img {
+        width: 15px;
+        height: 15px; }
+    .footer-liked__text {
+      position: relative;
+      text-transform: uppercase;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 100;
+      padding-right: 25px; }
+      .footer-liked__text::after {
+        position: absolute;
+        width: 40px;
+        height: 1px;
+        top: 50%;
+        left: 80px;
+        content: "";
+        background-color: #000; }
+  .footer-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .footer-links__item {
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
+      background-color: #0000ff;
+      border-radius: 50%;
+      opacity: 1; }
+  .footer__share img {
+    max-width: 30px; }
