@@ -22,7 +22,8 @@ body {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  overflow: hidden; }
 
 .main {
   -webkit-box-flex: 1;
