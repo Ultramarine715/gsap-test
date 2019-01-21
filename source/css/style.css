@@ -30,7 +30,7 @@ body {
           flex-grow: 1;
   background-color: #000;
   color: #fff;
-  background-image: url(../../img/main-bg.jpg);
+  background-image: url(../img/main-bg.jpg);
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
@@ -59,7 +59,7 @@ body {
           justify-content: flex-end;
   background-color: #fff;
   color: #000;
-  background-image: url(../../img/aside-bg.jpg);
+  background-image: url(../img/aside-bg.jpg);
   background-size: cover;
   background-position-x: center; }
   .aside__btn {
